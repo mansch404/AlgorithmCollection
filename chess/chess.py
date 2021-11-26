@@ -1,10 +1,10 @@
 
 class Chess():
 
-    color = "w"
+    color = ""
 
-    def __init__(self):
-        pass
+    def __init__(self, stanColor):
+        color = stanColor
 
     def getChess():
         for x in range(8):
