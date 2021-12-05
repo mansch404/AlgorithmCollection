@@ -2,8 +2,6 @@
 def runAlgorithm():
         for x in range(8):
             for y in range(8):
-                if y == 7:
-                    print()
                 if x % 2 == 0:
                     if y % 2 == 0:
                        color = "w"
@@ -16,5 +14,8 @@ def runAlgorithm():
                         color = "w"
                 
                 print(color, end='')
+
+                if y == 7:
+                    print()
 
 runAlgorithm()
