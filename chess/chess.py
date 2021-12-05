@@ -17,5 +17,3 @@ def runAlgorithm():
 
                 if y == 7:
                     print()
-
-runAlgorithm()
