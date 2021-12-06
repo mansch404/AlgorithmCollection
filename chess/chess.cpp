@@ -6,9 +6,17 @@ int main() {
     for (int x = 0; x < 8;x++) {
         for (int y = 0; y < 8;y++) {
             if(x % 2 == 0) {
-                cout << "w"; // prints out the white color
+                if(y % 2 == 0) {
+                    cout << "w";
+                } else {
+                    cout << "b";
+                }
             } else {
-                cout << "b"; // prints out the black color
+                if(y % 2 == 0) {
+                    cout << "b";
+                } else {
+                    cout << "w";
+                }
             }
 
             if(x == 7) {
