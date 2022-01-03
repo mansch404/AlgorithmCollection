@@ -8,7 +8,6 @@ int main(void) {
 		y = 1;
 		do {
 			printf("%d\n", x);
-
 			z = x + y;
 			x = y;
 			y = z;
